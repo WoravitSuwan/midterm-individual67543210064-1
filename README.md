@@ -50,12 +50,9 @@ midterm-individual67543210064-1/
 ├── package.json
 ├── students.db                    # SQLite database
 └── README.md
-
-
-## 🎯 Refactoring Summary
-
-### ปัญหาของ Monolithic (เดิม):
-- โค้ดทั้งหมดรวมอยู่ในไฟล์เดียว (server.js) ทำให้ไฟล์มีขนาดใหญ่และซับซ้อน
+🎯 Refactoring Summary
+ปัญหาของ Monolithic (เดิม)
+โค้ดทั้งหมดรวมอยู่ในไฟล์เดียว (server.js) ทำให้ไฟล์มีขนาดใหญ่และซับซ้อน
 
 Business Logic, Validation, Database Query และ HTTP Handling ปะปนกัน
 
@@ -65,8 +62,8 @@ Business Logic, Validation, Database Query และ HTTP Handling ปะปน�
 
 ทดสอบและบำรุงรักษาระบบในระยะยาวทำได้ยาก
 
-### วิธีแก้ไขด้วย Layered Architecture:
-- แยกโค้ดออกเป็น 3 Layer ตามหน้าที่ความรับผิดชอบ
+วิธีแก้ไขด้วย Layered Architecture
+แยกโค้ดออกเป็น 3 Layer ตามหน้าที่ความรับผิดชอบ
 
 Presentation Layer: จัดการ HTTP request/response และ routing
 
@@ -80,8 +77,8 @@ Data Layer: ติดต่อและจัดการฐานข้อม�
 
 โครงสร้างโค้ดชัดเจน สามารถพัฒนาและแก้ไขเป็นส่วน ๆ ได้
 
-### ประโยชน์ที่ได้รับ:
-- โค้ดอ่านง่าย เป็นระเบียบ และเข้าใจได้เร็ว
+ประโยชน์ที่ได้รับ
+โค้ดอ่านง่าย เป็นระเบียบ และเข้าใจได้เร็ว
 
 ลดผลกระทบของการแก้ไขโค้ด (Low Coupling)
 
@@ -91,9 +88,9 @@ Data Layer: ติดต่อและจัดการฐานข้อม�
 
 ง่ายต่อการทดสอบและ debug แต่ละ layer แยกจากกัน
 
-## 🚀 How to Run
-
-\`\`\`bash
+🚀 How to Run
+bash
+Copy code
 # 1. Clone repository
 git clone [your-repo-url]
 
@@ -102,23 +99,11 @@ npm install
 
 # 3. Run server
 npm start
-<img width="1980" height="1087" alt="Screenshot 2569-01-14 at 11 29 02" src="https://github.com/user-attachments/assets/f58adba7-6a1d-4bb3-8c6c-b4bbacba8960" />
+เปิด Browser: http://localhost:3000
 
-
-# 4. Test API
-# Open browser: http://localhost:3000
-\`\`\`
-<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 28 53" src="https://github.com/user-attachments/assets/6aba6670-0b2e-4eb5-910a-2af95e23c624" />
-
-<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 26 39" src="https://github.com/user-attachments/assets/dd079255-0950-47a4-9843-3177ca898686" />
-
-<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 22 11" src="https://github.com/user-attachments/assets/87c80f33-7e4e-4a64-bf19-20a9a12eb040" />
-
-<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 20 41" src="https://github.com/user-attachments/assets/a41dd7f3-72b8-4668-a21a-239ee1b83abd" />
-
-<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 19 20" src="https://github.com/user-attachments/assets/9b67fe72-bbe2-4c1d-8b97-73e7b8acca4f" />
-
-## 📝 API Endpoints
+📸 Screenshots
+<img width="1980" height="1087" alt="Run Server" src="https://github.com/user-attachments/assets/f58adba7-6a1d-4bb3-8c6c-b4bbacba8960" /> <img width="1757" height="913" alt="Get All Students" src="https://github.com/user-attachments/assets/6aba6670-0b2e-4eb5-910a-2af95e23c624" /> <img width="1757" height="913" alt="Get Student by ID" src="https://github.com/user-attachments/assets/dd079255-0950-47a4-9843-3177ca898686" /> <img width="1757" height="913" alt="Create Student" src="https://github.com/user-attachments/assets/87c80f33-7e4e-4a64-bf19-20a9a12eb040" /> <img width="1757" height="913" alt="Update Student" src="https://github.com/user-attachments/assets/a41dd7f3-72b8-4668-a21a-239ee1b83abd" /> <img width="1757" height="913" alt="Delete Student" src="https://github.com/user-attachments/assets/9b67fe72-bbe2-4c1d-8b97-73e7b8acca4f" />
+📝 API Endpoints
 GET /api/students
 ดึงข้อมูลนักศึกษาทั้งหมด (รองรับ query major, status)
 
