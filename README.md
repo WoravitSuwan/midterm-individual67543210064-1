@@ -101,18 +101,7 @@ npm install
 npm start
 เปิด Browser: http://localhost:3000
 
-<img width="1980" height="1087" alt="Screenshot 2569-01-14 at 11 29 02" src="https://github.com/user-attachments/assets/00b694c2-63d8-4124-9110-c464abfdab12" />
-
-📸 Screenshots
-<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 28 53" src="https://github.com/user-attachments/assets/2dc3b607-0878-4b5b-943e-a8622385eee4" /> 
-
-<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 26 39" src="https://github.com/user-attachments/assets/3188c4bb-d6ca-40d0-82f3-030c840b09cb" /> 
-
-<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 22 11" src="https://github.com/user-attachments/assets/df0e0e47-b24c-40aa-9584-1288f3c43d04" /> 
-
-<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 20 41" src="https://github.com/user-attachments/assets/e9514963-effd-4adc-9182-3c8d3c5e1971" /> 
-
-<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 19 20" src="https://github.com/user-attachments/assets/0917b757-058e-4eb5-a6e9-4a81b9cba565" /> 
+<img width="1980" height="1087" alt="Screenshot 2569-01-14 at 11 29 02" src="https://github.com/user-attachments/assets/8c558136-6af4-4a24-9713-3b2703c8db14" />
 
 📝 API Endpoints
 GET /api/students
