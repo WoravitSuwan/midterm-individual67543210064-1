@@ -1,15 +1,22 @@
 # Student Management System - Layered Architecture
 
 ## 📋 Project Information
-- **Student Name:** [นาย วรวิทย์ สุวรรณ]
-- **Student ID:** [67543210064-1]
-- **Course:** ENGSE207 Software Architecture
+- **Student Name:** นาย วรวิทย์ สุวรรณ  
+- **Student ID:** 67543210064-1  
+- **Course:** ENGSE207 Software Architecture  
+
+---
 
 ## 🏗️ Architecture Style
-Layered Architecture (3-tier)
+**Layered Architecture (3-Tier)**  
+ประกอบด้วย Presentation Layer, Business Logic Layer และ Data Access Layer
+
+---
 
 ## 📂 Project Structure
-midterm-individual675432100641/
+
+```text
+midterm-individual67543210064-1/
 ├── src/
 │   ├── presentation/              # Presentation Layer (HTTP / UI Interaction)
 │   │   ├── routes/                # กำหนด API routes
@@ -31,7 +38,7 @@ midterm-individual675432100641/
 │       └── database/              # การเชื่อมต่อฐานข้อมูล
 │           └── connection.js
 │
-├── public/                         # Frontend UI
+├── public/                        # Frontend UI
 │   ├── index.html
 │   ├── css/
 │   │   └── style.css
@@ -43,6 +50,7 @@ midterm-individual675432100641/
 ├── package.json
 ├── students.db                    # SQLite database
 └── README.md
+
 
 ## 🎯 Refactoring Summary
 
