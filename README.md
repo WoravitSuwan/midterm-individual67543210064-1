@@ -94,10 +94,21 @@ npm install
 
 # 3. Run server
 npm start
+<img width="1980" height="1087" alt="Screenshot 2569-01-14 at 11 29 02" src="https://github.com/user-attachments/assets/8fe66ec1-f20b-42af-b799-209cef6dcc21" />
+
 
 # 4. Test API
 # Open browser: http://localhost:3000
 \`\`\`
+<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 28 53" src="https://github.com/user-attachments/assets/6aba6670-0b2e-4eb5-910a-2af95e23c624" />
+
+<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 26 39" src="https://github.com/user-attachments/assets/dd079255-0950-47a4-9843-3177ca898686" />
+
+<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 22 11" src="https://github.com/user-attachments/assets/87c80f33-7e4e-4a64-bf19-20a9a12eb040" />
+
+<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 20 41" src="https://github.com/user-attachments/assets/a41dd7f3-72b8-4668-a21a-239ee1b83abd" />
+
+<img width="1757" height="913" alt="Screenshot 2569-01-14 at 11 19 20" src="https://github.com/user-attachments/assets/9b67fe72-bbe2-4c1d-8b97-73e7b8acca4f" />
 
 ## 📝 API Endpoints
 GET /api/students
